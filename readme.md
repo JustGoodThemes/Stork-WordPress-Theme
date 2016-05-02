@@ -1,8 +1,9 @@
-= Stork =
+# Stork
 
-A clean, minimal and bold WordPress theme for personal blogging.
+A clean, minimal and bold WordPress theme for personal blogging. 
+[View theme demo](http://themes.justgoodthemes.com/stork/)
 
-= Features =
+## Features
 
 1. Custom Menu. Stork theme has one custom menu location called "Navigation Menu" and located in the header. Multi-level menus are not supported.
 2. Theme Options. This theme comes with an easy to use options panel that can be accessed by navigating to Appearance → Stork Options. Theme options are divided into two sections. Under "General Settings" you can change theme colors, upload a logo. "Social Networks Settings" allow you to add your social network links.
@@ -11,9 +12,9 @@ A clean, minimal and bold WordPress theme for personal blogging.
 5. Widgets. Stork theme has a widget-ready footer with four available widget areas that can be customized in Appearance → Widgets.
 6. Custom Page Templates. This theme offers one custom page template "Archives" that displays a list of latest 20 posts ordered by date, a list of categories and monthly and yearly archive lists. To use a custom page template, simply create a page and select the page template in "Page Attributes" section.
 
-Note! This theme does not support post formats, custom background and custom header functionality.
+*Note! This theme does not support post formats, custom background and custom header functionality.*
 
-= Credits =
+### Credits
 
 1. The HTML5 Shiv, http://remysharp.com/html5-enabling-script.
 2. Iris Color Picker, https://github.com/Automattic/Iris. Licensed under the GPLv2 license.
