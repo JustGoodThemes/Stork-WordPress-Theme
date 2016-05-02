@@ -1,0 +1,299 @@
+/*
+Theme Name: Stork
+Description: Used to style the TinyMCE editor.
+*/
+
+html .mceContentBody {
+	font-size: 112.5%;
+	max-width: 780px;
+}
+
+body {
+	color: #333;
+	font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: 400;
+	line-height: 1.666666667;
+	vertical-align: baseline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #1f1f1f;
+	font-weight: bold;
+	margin: 0 0 12px;
+}
+
+h1 {
+	font-size: 34px;
+	letter-spacing: -1px;
+	line-height: 1.176470588;
+}
+
+h2 {
+	font-size: 28px;
+	letter-spacing: -1px;
+	line-height: 1.142857143;
+}
+
+h3 {
+	font-size: 22px;
+	line-height: 1.272727273;
+}
+
+h4 { 
+	font-size: 18px;
+	line-height: 1.333333333;
+}
+
+h5, h6 { 
+	font-size: 16px;
+	line-height: 1.25;
+}
+
+address {
+	font-style: italic;
+	margin-bottom: 24px;
+}
+
+abbr[title] {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+
+b,
+strong {
+	font-weight: 700;
+}
+
+cite {
+	border: 0;
+}
+
+cite,
+dfn,
+em,
+i {
+	font-style: italic;
+}
+
+mark,
+ins {
+	background: #d9d9d9;
+	border: 0;
+	color: inherit;
+	text-decoration: none;
+}
+
+p {
+	margin: 0 0 24px;
+}
+
+code,
+kbd,
+tt,
+var,
+samp,
+pre {
+	font-family: monospace, serif;
+	font-size: 16px;
+}
+
+pre {
+	background: #fff;
+	font-size: 16px;
+	line-height: 1.625;
+	margin: 0 0 24px;
+	padding: 24px;
+	overflow: auto;
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+
+blockquote {
+	border-left: 5px solid #ededed;
+	color: #6e6e6e;
+	font-size: 20px;
+	font-style: italic;
+	line-height: 1.5;
+	margin: 0 0 24px;
+	padding-left: 24px;
+}
+
+blockquote p:last-child {
+	margin-bottom: 0;
+}
+
+blockquote cite,
+blockquote small {
+	font-weight: bold;
+}
+
+small {
+	font-size: smaller;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+	top: -0.5em;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+dl {
+	margin: 0 0 24px;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 0 12px;
+}
+
+ul, ol {
+	margin: 0 0 24px;
+	padding: 0 0 0 24px;
+}
+
+ul {
+	list-style: circle;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+}
+
+hr {
+	background: #d9d9d9;
+	border: 0;
+	height: 1px;
+	margin: 24px 0;
+}
+
+a {
+	color: #3366c8;
+	text-decoration: underline;
+}
+
+a:focus {
+	outline: thin dotted;
+}
+
+a:active, a:hover {
+	outline: 0;
+}
+
+a:hover {
+	color: #ff5148;
+}
+
+.mceItemTable {
+	margin: 0 0 24px;
+	text-align: left;
+	width: 100%;
+}
+
+.mceItemTable caption {
+    color: #6e6e6e;
+	font-size: 16px;
+	font-style: italic;
+	line-height: 1.625;
+	margin-bottom: 12px;
+	text-align: left;
+}
+
+.mceItemTable th,
+.mceItemTable td {
+	padding: 6px;
+}
+
+.mceItemTable td {
+	font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.625;
+	vertical-align: baseline;
+}
+
+.alignleft {
+	float: left;
+	margin-right: 24px;
+}
+.alignright {
+	float: right;
+	margin-left: 24px;
+}
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+	height: auto;
+	max-width: 780px;
+	vertical-align: middle;
+}
+
+img.alignleft,
+img.alignright,
+img.aligncenter {
+	margin-bottom: 6px;
+	margin-top: 6px;
+}
+
+.wp-caption {
+	background: transparent;
+	border: 0;
+	color: #6e6e6e;
+	margin-bottom: 24px;
+	margin-top: 0;
+	max-width: 780px;
+	padding: 0;
+	text-align: left;
+}
+
+.wp-caption-dt {
+	margin: 0;
+}
+
+.wp-caption .wp-caption-text,
+.wp-caption-dd {
+	font-size: 16px;
+	font-style: italic;
+	line-height: 1.25;
+	padding: 6px 0 0;
+	text-align: center;
+}

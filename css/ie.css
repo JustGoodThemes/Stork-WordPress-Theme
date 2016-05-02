@@ -1,0 +1,15 @@
+.screen-reader-text {
+	clip: rect(1px 1px 1px 1px);
+}
+
+body {
+	min-width: 1128px;
+}
+
+.entry-content img,
+.gallery img,
+.comment-content img,
+.widget img,
+.wp-post-image {
+	width: auto;
+}
